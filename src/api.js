@@ -1,4 +1,3 @@
-import { useAuth } from "./auth/AuthProvider";
 
 // Pas possible d’utiliser useAuth ici directement (hook React)
 // On va donc exporter des fonctions pour créer un fetch wrapper
