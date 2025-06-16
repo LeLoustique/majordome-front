@@ -3,7 +3,7 @@
 // On va donc exporter des fonctions pour créer un fetch wrapper
 // que les composants utiliseront en récupérant le token via useAuth()
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://sping-ai-majordome.onrender.com";
 
 export async function loginUser(email, password) {
   const response = await fetch(`${API_URL}/auth/login`, {
