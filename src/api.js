@@ -56,7 +56,7 @@ export async function authFetch(url, options = {}, refreshAuthToken, token) {
  */
 export async function sendMessageToChatController(message, refreshAuthToken, token) {
   return authFetch(
-    `${API_URL}/chat`,
+    `${API_URL}/api/chat`,
     { method: "POST", body: JSON.stringify({ message }) },
     refreshAuthToken,
     token
